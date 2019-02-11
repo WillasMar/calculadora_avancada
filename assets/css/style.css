@@ -1,0 +1,134 @@
+*{
+	font-family: arial;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.calculadora{
+	width: 400px;
+	height: 500px;
+	background-color: #eee;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -250px;
+	margin-top: -200px;
+}
+
+/* Parte de cima */
+.topo{
+	width: 398px;
+	height: 100px;
+	background-color: #ddd;
+	border: 1px solid #a9a9a9;
+}
+.historico{
+	width: 398px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 35px;
+}
+#numero{
+	width: 394px;
+	height: 44px;
+	font-size: 20px;
+}
+
+/* Parte de baixo */
+.baixo{
+	width: 398px;
+	height: 390px;
+	margin-top: 10px;
+	background-color: #808080;
+}
+.baixoI{
+	width: 448px;
+	height: 390px;
+	background-color: #808080;
+	border: 1px solid #696969;
+}
+.baixoInt{ /* classe usada nos botões */
+	float: left;
+}
+
+/* botões de 0 à 9 */
+.botoes{
+	width: 300px;
+	height: 390px;
+}
+.botao{
+	width: 98px;
+	height: 95px;
+	text-align: center;
+	line-height: 100px;
+	float: left;
+	margin-top: 2px;
+	margin-right: 2px;
+	background-color: #dcdcdc;
+	font-size: 30px;
+}
+.igual{
+	width: 198px;
+}
+.botao:hover{
+	background-color: #D3D3D3;
+	cursor: pointer;
+}
+
+/* operações básicas Adi, Sub, Mul, Div */
+.operacoes{
+	width: 98px;
+	height: 390px;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+.operacao{
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+}
+.operacao:hover{
+	background-color: #A9A9A9;
+	cursor: pointer;
+}
+
+/* outras operações, por, raiz, div/x */
+.outrasOp{
+	width: 49px; /* + 1 de borda */
+	height: 390px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	border-left: 1px solid #ccc;
+}
+.outraOp{
+	width: 100%;
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.outraOp:hover{
+	background-color: #A9A9A9;
+	cursor: pointer;
+}
+
+/* fechar outras operações */
+.fecharOp{
+	width: 50px;
+	height: 390px;
+	background: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fecharOp:hover{
+	cursor: pointer;
+	background: rgba(0, 0, 0, 0.7);
+}
