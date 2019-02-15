@@ -13,3 +13,8 @@ Diretórios e Arquivos Iniciais:<br>
 <br><br>
 
 Foi implementado a aba das outras operações, adicionado o botão para limpar os campos e as variáveis, feito melhoria no botão de igualdade e nas operações.
+
+<br><br>
+
+Foi incluído arquivo "jquery-3.3.1.min.js" no diretório assets/js.<br>
+Alterado index.html na tag <script>
